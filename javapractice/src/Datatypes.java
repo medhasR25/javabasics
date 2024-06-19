@@ -25,3 +25,24 @@ public class datatypes {
        System.out.println("Name =" +name);
        System.out.println("ID =" +stdId);
        System.out.println("Gender =" +gender);
+
+
+       System.out.println("Enter Maths marks :");
+      int maths =medhas.nextInt();
+
+      System.out.println("Enter English marks :");
+      int english =medhas.nextInt();
+
+      System.out.println("Enter science marks :");
+      int science =medhas.nextInt();
+
+      System.out.println("Maths =" +maths);
+      System.out.println("English =" +english);
+      System.out.println("Science =" +science);
+
+      if(maths >= 40 && english>=40 && science >=40){
+        System.out.println("you are Pass");
+      }
+      else{
+        System.out.println("You are failed ");
+      }
